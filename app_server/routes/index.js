@@ -1,14 +1,14 @@
 var express = require('express');
 var router = express.Router();
-var ctrlLocations = require('../controllers/locations');
-var ctrlOthers = require('../controllers/others');
+var ctrlMain = require('../controllers/labsix');
 
-/* Locations pages */
-router.get('/', ctrlLocations.homelist);
-router.get('/location', ctrlLocations.locationInfo);
-router.get('/location/review/new', ctrlLocations.addReview);
 
-/* Other pages */
-router.get('/about', ctrlOthers.about);
+/* GET pages */
+router.get('/', ctrlMain.home);
+router.get('/homework', ctrlMain.homework);
+router.get('/pageone', ctrlMain.pageone);
+router.get('/pagetwo', ctrlMain.pagetwo);
+
+
 
 module.exports = router;

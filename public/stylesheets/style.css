@@ -3,3 +3,19 @@
 .review-header {margin-bottom: 10px;}
 .reviewAuthor {margin: 0 5px;}
 .reviewTimestamp {color: #ccc;}
+
+.nav.navbar-nav{
+    float: right;
+    
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+}
+
+
+.text-vertical-center {
+    
+    text-align: center;
+    vertical-align: middle;
+}
