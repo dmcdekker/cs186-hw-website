@@ -15,14 +15,14 @@ module.exports.homework = function(req, res) {
 
 /* GET 'pageone' page */
 module.exports.pageone = function(req, res) {
-    res.render('pageone', {
+    res.render('html1', {
         title: 'pageone',
     });
 };
 
 /* GET 'pagetwo' page */
 module.exports.pagetwo = function(req, res) {
-    res.render('pagetwo', {
+    res.render('html2', {
         title: 'pagetwo',
     });
 };
